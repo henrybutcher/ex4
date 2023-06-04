@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #161616;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* viewportheight^ */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#clock{
+    display: inline;
+    font-size: 2em;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin: auto;
+    padding: 2rem;
+    background: black;
+    letter-spacing: 1vw; 
+    border: 2px solid white; 
+    user-select: none;
+    /* viewportwidth^ */
+}
+
+#remove {
+    display: block;
+    margin: auto;
+    padding: 2rem 3rem;
+    color: white;
+    background-color: red;
+    cursor: pointer;
+}
+
+#reset {
+    display: block;
+    margin: auto;
+    padding: 2rem 3rem;
+    color: white;
+    background-color: green;
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+
+}
